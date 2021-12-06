@@ -7,3 +7,15 @@ body {
     height: 200px;
     width: 150px;
 }
+
+.Content-div .image img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 5px;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 22px;
+}
