@@ -4,11 +4,16 @@ body {
 }
 
 .logo {
-    height: 200px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
 }
 
 .social-icon img {
     width: 20px;
     height: 22px;
+}
+
+.Content-div img {
+    height: 250px;
+    width: 250px;
 }
