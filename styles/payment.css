@@ -1,11 +1,43 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #e0e0e0;
 }
 
 .logo {
     height: 60px;
     width: 60px;
+}
+
+.Header-div {
+    background-color: rosybrown;
+}
+
+.hotel-img {
+    background-color: rgb(132, 136, 139);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customer {
+    margin: 2% 2% 2% 2%;
+}
+
+.details {
+    margin: 2% 2% 2% 2%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2% 2% 2% 2%;
+}
+
+.Footer-div {
+    background-color: rosybrown;
 }
 
 .social-icon img {

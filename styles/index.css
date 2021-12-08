@@ -1,6 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #e0e0e0;
+}
+
+
+/*-------header div----*/
+
+.Header-div {
+    background-color: rosybrown;
 }
 
 .logo {
@@ -8,11 +16,29 @@ body {
     width: 60px;
 }
 
+.search-bar {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    background-repeat: repeat;
+    height: 380px;
+    align-items: center;
+}
+
+.image {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Footer-div {
+    background-color: rosybrown;
+}
+
 .Content-div .image img {
     height: 150px;
     width: 150px;
     float: left;
     padding: 5px;
+    padding: 4% 4% 4% 4%;
+    border-radius: 25%;
 }
 
 .social-icon img {
