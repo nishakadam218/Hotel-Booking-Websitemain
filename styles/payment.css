@@ -9,10 +9,6 @@ body {
     width: 60px;
 }
 
-.Header-div {
-    background-color: rosybrown;
-}
-
 .hotel-img {
     background-color: rgb(132, 136, 139);
     margin-top: 2%;
@@ -34,15 +30,6 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     margin: 2% 2% 2% 2%;
-}
-
-.Footer-div {
-    background-color: rosybrown;
-}
-
-.social-icon img {
-    width: 20px;
-    height: 22px;
 }
 
 .Content-div img {

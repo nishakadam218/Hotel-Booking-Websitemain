@@ -3,7 +3,50 @@ body {
     padding: 0;
 }
 
+
+/*-------header div----*/
+
+.Header-div {
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.login a {
+    text-decoration: none;
+    justify-content: right;
+}
+
 .logo {
-    height: 200px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
+}
+
+
+/*-----------footer div-----------------*/
+
+.Footer-div {
+    background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icon {
+    text-align: right;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 22px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    text-align: bottom;
+}
+
+.Footer-div p {
+    text-align: center;
 }

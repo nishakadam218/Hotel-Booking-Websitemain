@@ -7,14 +7,12 @@ body {
 .logo {
     height: 60px;
     width: 60px;
+    margin: 2% 2% 2% 2%;
 }
 
 .Header-div {
     background-color: rosybrown;
-}
-
-.Content-div {
-    margin: 2% 2% 2% 2%;
+    width: 100%;
 }
 
 .hotel-img {
@@ -24,6 +22,10 @@ body {
 
 .Footer-div {
     background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 .social-icon img {

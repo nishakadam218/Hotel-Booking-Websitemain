@@ -3,34 +3,47 @@
 
 <head>
     <title>Hotel-Booking-Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="C:\Hotel-Booking-Website\styles\index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="C:\Hotel-Booking-Website\styles\common.css">
+    <link rel="stylsheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="Header-div">
-            <div class="login"><a href="C:\Hotel-Booking-Website\login.html">Login</a>
-                <a href="C:\Hotel-Booking-Website\index.html" target="_blank">
-                    <img class="logo" src="C:\Hotel-Booking-Website\assests\images\logo.png" alt="logo"></a>
-            </div>
-        </div>
+        <header class="Header-div">
+            <div class="login"><a href="C:\Hotel-Booking-Website\index.html">Login</a></div>
+            <img class="logo" src="C:\Hotel-Booking-Website\assests\images\logo.png" alt="logo">
+
+
+        </header>
 
         <div class="Content-div">
             <div class="search-bar">
                 <input type="text" placeholder="city">
             </div>
 
-            <div class="image">
-                <a href="C:\Hotel-Booking-Website\list.html" target="_blank"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="dehli"></a> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="goa">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata">
+            <div class="city-card">
+                <div class="image">
+                    <a href="C:\Hotel-Booking-Website\list.html" target="_blank">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="dehli"></a>
+                </div>
+                <div class="image">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="goa">
+                </div>
+                <div class="image">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="charminar">
+                </div>
+
+                <div class="image">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata">
+                </div>
             </div>
-            <div class="view-more"><a href="C:\Hotel-Booking-Website\index.html">View more</a>
-            </div>
+            <a href="C:\Hotel-Booking-Website\index.html" class="view-more">View more</a>
+
         </div>
 
-        <div class="Footer-div">
+        <footer class="Footer-div">
             <div class="contact-us"><a href="C:\Hotel-Booking-Website\contact.html" target="_blank">ContactUs</a>
             </div>
 
@@ -40,7 +53,7 @@
                 <a href="https://twitter.com" target="_blank"><img src="C:\Hotel-Booking-Website\assests\images\twitter.png "> </a>
             </div>
             <p>&copy; 2021 ROOM SEARCH PVT.LID </p>
-        </div>
+        </footer>
     </div>
 </body>
 
