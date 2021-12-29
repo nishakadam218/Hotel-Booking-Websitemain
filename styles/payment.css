@@ -1,38 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #e0e0e0;
-}
-
-.logo {
-    height: 60px;
-    width: 60px;
-}
-
-.hotel-img {
+#hotel-details {
     background-color: rgb(132, 136, 139);
-    margin-top: 2%;
-    margin-bottom: 2%;
     width: 50%;
     height: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
 }
 
-.customer {
-    margin: 2% 2% 2% 2%;
+#payment-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
-.details {
-    margin: 2% 2% 2% 2%;
-    padding: 10px;
-    border: 1px solid black;
+.hotel-image {
+    max-height: 300px;
+    max-width: 270px;
+}
+
+#customer-payment-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: black 1px solid;
     border-radius: 5px;
-    margin: 2% 2% 2% 2%;
-}
-
-.Content-div img {
-    height: 500px;
-    width: 500px;
+    margin: 0% 2%;
+    background-color: rosybrown;
 }

@@ -2,24 +2,22 @@
 <html>
 
 <head>
-    <title>Hotel-Booking-Website</title>
-    <link rel="stylesheet" href="C:\Hotel-Booking-Website\styles\common.css">
+    <title>Login</title>
 </head>
 
 <body>
-    <form action="C:\Hotel-Booking-Website\index.html" method="post">
-        <div class="login">
-            <label for="uname"><strong>Username</strong></label>
-            <input type="text" placeholder="Enter Username" name="uname" required><br>
-
-            <label for="psw"><strong>Password</strong></label>
-            <input type="password" placeholder="Enter Password" name="psw" required><br>
-
-            <button type="submit">Login</button>
-
-        </div>
-    </form>
-
+    <div>
+        <!-- Added the Login form -->
+        <form action="index.html" autocomplete="off" method="get">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required/>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required/>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
 
 </html>
